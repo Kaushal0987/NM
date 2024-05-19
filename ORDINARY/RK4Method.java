@@ -4,7 +4,7 @@ public class RK4Method {
 
     // Function representing the differential equation y' = f(x, y)
     public static double f(double x, double y) {
-        return x * Math.exp(-x) - y; // Example: y' = x * e^(-x) - y
+        return (y*y-x*x) / (y*y+x*x); // Example: y' = y^2 - x^2 / (y^2 + x^2)
     }
 
     // Runge-Kutta 4th Order Method implementation

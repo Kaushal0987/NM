@@ -4,7 +4,7 @@ public class EulersMethod {
 
     // Function representing the differential equation y' = f(x, y)
     public static double f(double x, double y) {
-        return x * Math.exp(-x) - y; // Example: y' = x * e^(-x) - y
+        return x * y; // Example: y' = x * y
     }
 
     // Euler's Method implementation
